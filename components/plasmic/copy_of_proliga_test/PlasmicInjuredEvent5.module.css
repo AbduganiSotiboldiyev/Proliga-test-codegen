@@ -1,0 +1,170 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 376px;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-uLPkj8KQCden);
+}
+.columns {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-width: 0;
+  --plsmc-rc-col-gap: 0px;
+  padding: 8px;
+}
+.columns > :nth-child(3n + 1) {
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
+}
+.columns > :nth-child(3n + 2) {
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
+}
+.columns > :nth-child(3n + 3) {
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
+}
+@media (min-width: 0px) and (max-width: 568px) {
+  .columns {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 568px) {
+  .columns > :nth-child(1n + 1) {
+    width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
+  }
+}
+.column___6M0Ni {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.text__rntY {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: var(--token-jgohepLVeKvh);
+  font-weight: 700;
+  min-width: 0;
+}
+.column___2EvPt {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.text__xGtdl {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-jgohepLVeKvh);
+  font-size: 14px;
+  font-weight: 400;
+  min-width: 0;
+}
+.textgoals__xGtdlNKqSp {
+  text-align: center;
+}
+.textgoalAssists__xGtdlZuBl {
+  text-align: center;
+}
+.textbigChanceCreated__xGtdl5Ggw7 {
+  text-align: center;
+}
+.textballsIntoTheBox__xGtdlgzoOd {
+  text-align: center;
+}
+.textpenaltiesWon__xGtdlEuwui {
+  text-align: center;
+}
+.textpenaltiesSaved__xGtdlWxl1 {
+  text-align: center;
+}
+.textsaves__xGtdlFfnpf {
+  text-align: center;
+}
+.texteffectiveClearanes__xGtdl6O5G {
+  text-align: center;
+}
+.textpenaltiesMissed__xGtdl1MU8X {
+  text-align: center;
+}
+.textownGoals__xGtdll79La {
+  text-align: center;
+}
+.textgoalsAgainst__xGtdlOrWw {
+  text-align: center;
+}
+.textyellowCard__xGtdlYMvW {
+  text-align: center;
+}
+.textsecondaryYellowCard__xGtdlYbrEt {
+  text-align: center;
+}
+.textredCard__xGtdlQuCc {
+  text-align: center;
+}
+.textgoalAttempts__xGtdlKHdEk {
+  text-align: center;
+}
+.texteffectiveDribbles__xGtdlztkbf {
+  text-align: center;
+}
+.textrecoviries__xGtdlvENvG {
+  text-align: center;
+}
+.textlostBalls__xGtdlAqtK {
+  text-align: center;
+}
+.textcommitedPenalties__xGtdlx5KlA {
+  text-align: center;
+}
+.column__xP3N5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.text__f0V2U {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: var(--token-jgohepLVeKvh);
+  font-weight: 700;
+  min-width: 0;
+}
