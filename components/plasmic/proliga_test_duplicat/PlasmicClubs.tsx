@@ -84,8 +84,8 @@ export const PlasmicClubs__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicClubs__OverridesType = {
   clubLogo?: Flex__<"div">;
+  freeBox?: Flex__<"div">;
   cmsDataFetcher?: Flex__<typeof CmsQueryRepeater>;
-  link?: Flex__<"a"> & Partial<LinkProps>;
   cmsEntryField?: Flex__<typeof CmsRowField>;
 };
 
@@ -149,8 +149,10 @@ function PlasmicClubs__RenderFunc(props: {
     >
       <Stack__
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(projectcss.all, sty.freeBox__ogdtC)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <CmsQueryRepeater
           data-plasmic-name={"cmsDataFetcher"}
@@ -198,25 +200,35 @@ function PlasmicClubs__RenderFunc(props: {
         >
           <DataCtxReader__>
             {$ctx => (
-              <div className={classNames(projectcss.all, sty.freeBox__geZPh)}>
-                <PlasmicLink__
-                  data-plasmic-name={"link"}
-                  data-plasmic-override={overrides.link}
-                  className={classNames(projectcss.all, projectcss.a, sty.link)}
-                  component={Link}
-                  href={(() => {
-                    try {
-                      return $ctx.plasmicCmsClubsItem.data.clubName;
-                    } catch (e) {
-                      if (
-                        e instanceof TypeError ||
-                        e?.plasmicType === "PlasmicUndefinedDataError"
-                      ) {
-                        return `/`;
-                      }
-                      throw e;
+              <PlasmicLink__
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__geZPh
+                )}
+                component={Link}
+                href={(() => {
+                  try {
+                    return "/club/" + $ctx.plasmicCmsClubsItem.identifier;
+                  } catch (e) {
+                    if (
+                      e instanceof TypeError ||
+                      e?.plasmicType === "PlasmicUndefinedDataError"
+                    ) {
+                      return `/club/[name]`;
                     }
-                  })()}
+                    throw e;
+                  }
+                })()}
+                platform={"nextjs"}
+              >
+                <PlasmicLink__
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__xf2Cy
+                  )}
+                  component={Link}
                   platform={"nextjs"}
                 >
                   <CmsRowField
@@ -235,7 +247,7 @@ function PlasmicClubs__RenderFunc(props: {
                     )}
                   />
                 </PlasmicLink__>
-              </div>
+              </PlasmicLink__>
             )}
           </DataCtxReader__>
         </CmsQueryRepeater>
@@ -245,9 +257,9 @@ function PlasmicClubs__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  clubLogo: ["clubLogo", "cmsDataFetcher", "link", "cmsEntryField"],
-  cmsDataFetcher: ["cmsDataFetcher", "link", "cmsEntryField"],
-  link: ["link", "cmsEntryField"],
+  clubLogo: ["clubLogo", "freeBox", "cmsDataFetcher", "cmsEntryField"],
+  freeBox: ["freeBox", "cmsDataFetcher", "cmsEntryField"],
+  cmsDataFetcher: ["cmsDataFetcher", "cmsEntryField"],
   cmsEntryField: ["cmsEntryField"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -255,8 +267,8 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   clubLogo: "div";
+  freeBox: "div";
   cmsDataFetcher: typeof CmsQueryRepeater;
-  link: "a";
   cmsEntryField: typeof CmsRowField;
 };
 
@@ -320,8 +332,8 @@ export const PlasmicClubs = Object.assign(
   makeNodeComponent("clubLogo"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
     cmsDataFetcher: makeNodeComponent("cmsDataFetcher"),
-    link: makeNodeComponent("link"),
     cmsEntryField: makeNodeComponent("cmsEntryField"),
 
     // Metadata about props expected for PlasmicClubs

@@ -87,6 +87,7 @@ export const PlasmicClubs2__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicClubs2__OverridesType = {
   root?: Flex__<"div">;
+  link?: Flex__<"a"> & Partial<LinkProps>;
   img?: Flex__<typeof PlasmicImg__>;
 };
 
@@ -184,9 +185,39 @@ function PlasmicClubs2__RenderFunc(props: {
             const currentItem = __plasmic_item_0;
             const currentIndex = __plasmic_idx_0;
             return (
-              <div
-                className={classNames(projectcss.all, sty.freeBox__sgRm0)}
+              <PlasmicLink__
+                data-plasmic-name={"link"}
+                data-plasmic-override={overrides.link}
+                className={classNames(projectcss.all, projectcss.a, sty.link)}
+                component={Link}
+                href={(() => {
+                  try {
+                    return "/club/" + currentItem.name;
+                  } catch (e) {
+                    if (
+                      e instanceof TypeError ||
+                      e?.plasmicType === "PlasmicUndefinedDataError"
+                    ) {
+                      return `/club/${(() => {
+                        try {
+                          return currentItem.name;
+                        } catch (e) {
+                          if (
+                            e instanceof TypeError ||
+                            e?.plasmicType === "PlasmicUndefinedDataError"
+                          ) {
+                            return undefined;
+                          }
+                          throw e;
+                        }
+                      })()}`;
+                    }
+                    throw e;
+                  }
+                })()}
                 key={currentIndex}
+                platform={"nextjs"}
+                target={undefined}
               >
                 <div className={classNames(projectcss.all, sty.freeBox__dgX7O)}>
                   <PlasmicImg__
@@ -218,7 +249,7 @@ function PlasmicClubs2__RenderFunc(props: {
                     width={"60"}
                   />
                 </div>
-              </div>
+              </PlasmicLink__>
             );
           })}
         </div>
@@ -228,7 +259,8 @@ function PlasmicClubs2__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "img"],
+  root: ["root", "link", "img"],
+  link: ["link", "img"],
   img: ["img"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -236,6 +268,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  link: "a";
   img: typeof PlasmicImg__;
 };
 
@@ -299,6 +332,7 @@ export const PlasmicClubs2 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    link: makeNodeComponent("link"),
     img: makeNodeComponent("img"),
 
     // Metadata about props expected for PlasmicClubs2

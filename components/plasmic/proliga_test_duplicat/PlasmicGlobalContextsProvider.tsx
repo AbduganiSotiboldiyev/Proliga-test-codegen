@@ -9,6 +9,7 @@ import { hasVariant, ensureGlobalVariants } from "@plasmicapp/react-web";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
 import { GraphCMSCredentialsProvider } from "@plasmicpkgs/plasmic-graphcms";
 import { CmsCredentialsProvider } from "@plasmicpkgs/plasmic-cms";
+import { CommerceProviderComponent } from "@plasmicpkgs/commerce-shopify";
 
 export interface GlobalContextsProviderProps {
   children?: React.ReactElement;
@@ -21,6 +22,9 @@ export interface GlobalContextsProviderProps {
   cmsCredentialsProviderProps?: Partial<
     Omit<React.ComponentProps<typeof CmsCredentialsProvider>, "children">
   >;
+  commerceProviderComponentProps?: Partial<
+    Omit<React.ComponentProps<typeof CommerceProviderComponent>, "children">
+  >;
 }
 
 export default function GlobalContextsProvider(
@@ -30,7 +34,8 @@ export default function GlobalContextsProvider(
     children,
     antdConfigProviderProps,
     graphCMSCredentialsProviderProps,
-    cmsCredentialsProviderProps
+    cmsCredentialsProviderProps,
+    commerceProviderComponentProps
   } = props;
 
   return (
@@ -167,7 +172,23 @@ export default function GlobalContextsProvider(
               : "default"
           }
         >
-          {children}
+          <CommerceProviderComponent
+            {...commerceProviderComponentProps}
+            accessToken={
+              commerceProviderComponentProps &&
+              "accessToken" in commerceProviderComponentProps
+                ? commerceProviderComponentProps.accessToken!
+                : "ef7d41c7bf7e1c214074d0d3047bcd7b"
+            }
+            storeDomain={
+              commerceProviderComponentProps &&
+              "storeDomain" in commerceProviderComponentProps
+                ? commerceProviderComponentProps.storeDomain!
+                : "next-js-store.myshopify.com"
+            }
+          >
+            {children}
+          </CommerceProviderComponent>
         </CmsCredentialsProvider>
       </GraphCMSCredentialsProvider>
     </AntdConfigProvider>
