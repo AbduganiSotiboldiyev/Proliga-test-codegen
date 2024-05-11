@@ -11,6 +11,16 @@
       }
     },
     {
+      "name": "Facebook",
+      "type": "color",
+      "value": "#4267B2",
+      "category": "color",
+      "meta": {
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "id": "FRFQxTf58EY2"
+      }
+    },
+    {
       "name": "Footer Back",
       "type": "color",
       "value": "#11111F",
@@ -18,6 +28,16 @@
       "meta": {
         "projectId": "829HK5jNiwv3ZTz1XRkY4w",
         "id": "cIuIPC3wHcAQ"
+      }
+    },
+    {
+      "name": "Footer Back",
+      "type": "color",
+      "value": "#11111F",
+      "category": "color",
+      "meta": {
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "id": "AiOQgeNUleUQ"
       }
     },
     {
@@ -31,6 +51,16 @@
       }
     },
     {
+      "name": "LoginBack",
+      "type": "color",
+      "value": "#11111F",
+      "category": "color",
+      "meta": {
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "id": "1OJN40ewz1qc"
+      }
+    },
+    {
       "name": "Pink-Def",
       "type": "color",
       "value": "#EC7DE2",
@@ -38,6 +68,16 @@
       "meta": {
         "projectId": "829HK5jNiwv3ZTz1XRkY4w",
         "id": "ft5BmKhVtbv7"
+      }
+    },
+    {
+      "name": "Pink-Def",
+      "type": "color",
+      "value": "#EC7DE2",
+      "category": "color",
+      "meta": {
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "id": "sRr0-ZZF9AEm"
       }
     },
     {
@@ -2091,6 +2131,16 @@
       }
     },
     {
+      "name": "Text",
+      "type": "color",
+      "value": "#7B7B8C",
+      "category": "color",
+      "meta": {
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "id": "fyGp2o4eLs7m"
+      }
+    },
+    {
       "name": "member-back-yellow",
       "type": "color",
       "value": "#F8B034",
@@ -2098,6 +2148,16 @@
       "meta": {
         "projectId": "829HK5jNiwv3ZTz1XRkY4w",
         "id": "HnQ2owz4qJL0"
+      }
+    },
+    {
+      "name": "member-back-yellow",
+      "type": "color",
+      "value": "#F8B034",
+      "category": "color",
+      "meta": {
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "id": "QtA7huzTDDCg"
       }
     }
   ],

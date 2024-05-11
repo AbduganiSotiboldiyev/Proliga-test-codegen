@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicBothImageTextCard,
   DefaultBothImageTextCardProps
-} from "./plasmic/copy_of_proliga_test/PlasmicBothImageTextCard";
+} from "./plasmic/proliga_test_duplicat/PlasmicBothImageTextCard";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

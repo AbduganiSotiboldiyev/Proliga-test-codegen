@@ -2,10 +2,10 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
-import GlobalContextsProvider from "../components/plasmic/copy_of_proliga_test/PlasmicGlobalContextsProvider";
-import { ScreenVariantProvider } from "../components/plasmic/copy_of_proliga_test/PlasmicGlobalVariant__Screen";
-import { UnnamedGlobalGroupOfVariantsContext } from "../components/plasmic/copy_of_proliga_test/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants";
-import { PlasmicSignup } from "../components/plasmic/copy_of_proliga_test/PlasmicSignup";
+import GlobalContextsProvider from "../components/plasmic/proliga_test_duplicat/PlasmicGlobalContextsProvider";
+import { ScreenVariantProvider } from "../components/plasmic/proliga_test_duplicat/PlasmicGlobalVariant__Screen";
+import { UnnamedGlobalGroupOfVariantsContext } from "../components/plasmic/proliga_test_duplicat/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants";
+import { PlasmicSignup } from "../components/plasmic/proliga_test_duplicat/PlasmicSignup";
 import { useRouter } from "next/router";
 
 function Signup() {

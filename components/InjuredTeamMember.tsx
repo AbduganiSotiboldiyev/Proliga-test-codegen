@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicInjuredTeamMember,
   DefaultInjuredTeamMemberProps
-} from "./plasmic/copy_of_proliga_test/PlasmicInjuredTeamMember";
+} from "./plasmic/proliga_test_duplicat/PlasmicInjuredTeamMember";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

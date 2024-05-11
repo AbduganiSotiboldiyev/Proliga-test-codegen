@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicSearchComponent,
   DefaultSearchComponentProps
-} from "./plasmic/copy_of_proliga_test/PlasmicSearchComponent";
+} from "./plasmic/proliga_test_duplicat/PlasmicSearchComponent";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

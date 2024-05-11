@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicMarketMember,
   DefaultMarketMemberProps
-} from "./plasmic/copy_of_proliga_test/PlasmicMarketMember";
+} from "./plasmic/proliga_test_duplicat/PlasmicMarketMember";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

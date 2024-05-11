@@ -45,7 +45,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
@@ -103,7 +104,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-cms"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "22U3ZXm4dE59qEW488gxzU",
@@ -137,7 +139,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-graphcms"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -195,7 +198,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
@@ -405,7 +409,8 @@
           "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -427,7 +432,8 @@
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -455,7 +461,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jkU633o1Cz7HrJdwdxhVHk",
@@ -509,7 +516,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -909,7 +917,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "hsyJcmBceSfPzvvXzVTuk7",
@@ -924,7 +933,8 @@
       "globalContextsFilePath": "",
       "splitsProviderFilePath": "",
       "codeComponents": [],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -946,7 +956,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "829HK5jNiwv3ZTz1XRkY4w",
@@ -1752,6 +1763,761 @@
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
       ],
+      "customFunctions": [],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+      "projectApiToken": "6nKE9aRtq15a79eVEj48UObq6uw2d8H4YEV37Ipb4xRevVCaa6J2BEwtasEL3nNyf26PxiZmOycfVAshmZJlA",
+      "projectName": "Proliga Test Duplicat",
+      "version": "latest",
+      "cssFilePath": "plasmic/proliga_test_duplicat/plasmic.module.css",
+      "components": [
+        {
+          "id": "1VWJKLK4kMzI",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "p2h6o7H7daWs",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "fNjibg8zGGOe",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ufb4pdchi8zG",
+          "name": "LoginButton",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicLoginButton.tsx",
+          "importSpec": {
+            "modulePath": "LoginButton.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicLoginButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mumrzpIYcBFD",
+          "name": "LoginButton2",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicLoginButton2.tsx",
+          "importSpec": {
+            "modulePath": "LoginButton2.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicLoginButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Uy3JRKHKrxBh",
+          "name": "ImageCardText",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicImageCardText.tsx",
+          "importSpec": {
+            "modulePath": "ImageCardText.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicImageCardText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pnRYO8gTEGfN",
+          "name": "BothImageTextCard",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicBothImageTextCard.tsx",
+          "importSpec": {
+            "modulePath": "BothImageTextCard.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicBothImageTextCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "w7YkHErZhQuS",
+          "name": "SignInButtons",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicSignInButtons.tsx",
+          "importSpec": {
+            "modulePath": "SignInButtons.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicSignInButtons.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "irko7nMPT0CP",
+          "name": "LoginRegister",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicLoginRegister.tsx",
+          "importSpec": {
+            "modulePath": "LoginRegister.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicLoginRegister.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AP1fWPq9HEu_",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "0EyzlAnRJD0R",
+          "name": "Clubs",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicClubs.tsx",
+          "importSpec": {
+            "modulePath": "Clubs.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicClubs.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uHKFbDIRczYT",
+          "name": "Signup",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicSignup.tsx",
+          "importSpec": {
+            "modulePath": "../pages/signup.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicSignup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/signup"
+        },
+        {
+          "id": "KhVEkzDkNP4i",
+          "name": "MatchesCalendar",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicMatchesCalendar.tsx",
+          "importSpec": {
+            "modulePath": "MatchesCalendar.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicMatchesCalendar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Udrurtr-96zx",
+          "name": "SearchComponent",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicSearchComponent.tsx",
+          "importSpec": {
+            "modulePath": "SearchComponent.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicSearchComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rZFN--VDJ_9n",
+          "name": "Rankings",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicRankings.tsx",
+          "importSpec": {
+            "modulePath": "../pages/rankings.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicRankings.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/rankings"
+        },
+        {
+          "id": "sjr9GOIVDvbY",
+          "name": "Rankings2",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicRankings2.tsx",
+          "importSpec": {
+            "modulePath": "Rankings2.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicRankings2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "duIHn5ZTmZw_",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicLogin.tsx",
+          "importSpec": {
+            "modulePath": "../pages/login.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/login"
+        },
+        {
+          "id": "ibCwBASOs5kF",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6K3AGP4q6UR1",
+          "name": "Matches",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicMatches.tsx",
+          "importSpec": {
+            "modulePath": "../pages/matches.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicMatches.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/matches"
+        },
+        {
+          "id": "F8IBfzCCDh8f",
+          "name": "SoccerPlaceMens",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicSoccerPlaceMens.tsx",
+          "importSpec": {
+            "modulePath": "SoccerPlaceMens.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicSoccerPlaceMens.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UmSqECTkckcH",
+          "name": "IdealTeamMember",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicIdealTeamMember.tsx",
+          "importSpec": {
+            "modulePath": "IdealTeamMember.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicIdealTeamMember.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PM9g2L7V91mE",
+          "name": "BreakinNewsCards",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicBreakinNewsCards.tsx",
+          "importSpec": {
+            "modulePath": "BreakinNewsCards.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicBreakinNewsCards.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ntB5UTOvJGyH",
+          "name": "BreakinNews",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicBreakinNews.tsx",
+          "importSpec": {
+            "modulePath": "../pages/breaking-news.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicBreakinNews.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/breaking-news"
+        },
+        {
+          "id": "2ehnsloe4aL_",
+          "name": "MarketMember",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicMarketMember.tsx",
+          "importSpec": {
+            "modulePath": "MarketMember.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicMarketMember.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "P8P90inaNzA2",
+          "name": "Market",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicMarket.tsx",
+          "importSpec": {
+            "modulePath": "../pages/market.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicMarket.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/market"
+        },
+        {
+          "id": "IdFBz4NhBnEy",
+          "name": "IdealXl",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicIdealXl.tsx",
+          "importSpec": {
+            "modulePath": "../pages/ideal-xl.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicIdealXl.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/ideal-xl"
+        },
+        {
+          "id": "N9RytpJblddv",
+          "name": "Absences",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicAbsences.tsx",
+          "importSpec": {
+            "modulePath": "../pages/absences.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicAbsences.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/absences"
+        },
+        {
+          "id": "ayKY1SsUpBwW",
+          "name": "InjuredClub",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicInjuredClub.tsx",
+          "importSpec": {
+            "modulePath": "InjuredClub.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicInjuredClub.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PDN1UAI1YIQz",
+          "name": "InjuredTeamMember",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicInjuredTeamMember.tsx",
+          "importSpec": {
+            "modulePath": "InjuredTeamMember.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicInjuredTeamMember.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZbZ0LN8SqYcJ",
+          "name": "AuthComponent",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicAuthComponent.tsx",
+          "importSpec": {
+            "modulePath": "AuthComponent.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicAuthComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mWRnXxLIbnFI",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "xNGGElyo6apZ",
+          "name": "Clubs2",
+          "type": "managed",
+          "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+          "renderModuleFilePath": "plasmic/proliga_test_duplicat/PlasmicClubs2.tsx",
+          "importSpec": {
+            "modulePath": "Clubs2.tsx"
+          },
+          "cssFilePath": "plasmic/proliga_test_duplicat/PlasmicClubs2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "XGmm3CSTd2kr",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/proliga_test_duplicat/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "ls9Nellu-nA6",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/proliga_test_duplicat/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "IxbEnWlbnCXs",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/proliga_test_duplicat/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "5ZqiTHaH8iGz",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/proliga_test_duplicat/icons/PlasmicIcon__Squaresvg.tsx"
+        },
+        {
+          "id": "gyiLRmTNF4u6",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/proliga_test_duplicat/icons/PlasmicIcon__SquareCheckFilledsvg.tsx"
+        },
+        {
+          "id": "7F-g5jC6FNu1",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/proliga_test_duplicat/icons/PlasmicIcon__SquareMinussvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "I8cIDNoJq0IX",
+          "name": "image",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/image.svg"
+        },
+        {
+          "id": "UVvkFst2WgtP",
+          "name": "Screenshot 2024-04-07 120359.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/screenshot20240407120359Png.png"
+        },
+        {
+          "id": "SEL-KRsar4KZ",
+          "name": "logo_fantasy_dark_bg.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/logoFantasyDarkBgpng.png"
+        },
+        {
+          "id": "UPyUWcl2ZvtZ",
+          "name": "logo_sponsor_main_white.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/logoSponsorMainWhitepng.png"
+        },
+        {
+          "id": "q11mwGylAbVE",
+          "name": "1350731.jpeg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/_1350731Jpeg.jpg"
+        },
+        {
+          "id": "hP7NGYgQ_r99",
+          "name": "unnamed.jpg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/unnamedjpg.jpg"
+        },
+        {
+          "id": "o2fsk5Hc03dw",
+          "name": "images (1).jfif",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/images1Jfif.jpg"
+        },
+        {
+          "id": "UN7DUooAAUxy",
+          "name": "sm_5aff6081b74c8.jpg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/sm5Aff6081B74C8Jpg.jpg"
+        },
+        {
+          "id": "atv78yJIYNt5",
+          "name": "555.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/_555Webp.webp"
+        },
+        {
+          "id": "HKRQHDuc6E7G",
+          "name": "facebook-logo-circle-transparent.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/facebookLogoCircleTransparentpng.png"
+        },
+        {
+          "id": "mVpg7u5E8yq_",
+          "name": "754_facebook_icon.jpg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/_754FacebookIconjpg.jpg"
+        },
+        {
+          "id": "34ce1D1LRtAR",
+          "name": "Google__G__logo.svg.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/googleGLogosvgpng.png"
+        },
+        {
+          "id": "mjmDrYdib8bw",
+          "name": "images.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/imagespng.png"
+        },
+        {
+          "id": "v3gTetEfQw0T",
+          "name": "Real-Betis.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/realBetispng.png"
+        },
+        {
+          "id": "4UwMN6ZpVveg",
+          "name": "p1678_t186_1_001_000.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/p1678T1861001000Png.png"
+        },
+        {
+          "id": "v0er4h_csQOt",
+          "name": "empty_state_no_results.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/emptyStateNoResultswebp.webp"
+        },
+        {
+          "id": "GZcUueYY2S-t",
+          "name": "X_logo_2023_original.svg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/xLogo2023Originalsvg.svg"
+        },
+        {
+          "id": "zW9TTPSONBB1",
+          "name": "x-social-media-white-icon.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/xSocialMediaWhiteIconpng.png"
+        },
+        {
+          "id": "DKEJatEMHNSr",
+          "name": "soccer place.jpg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/soccerPlacejpg.jpg"
+        },
+        {
+          "id": "EHhj8wNrxaiW",
+          "name": "Sergio Her.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/sergioHerpng.png"
+        },
+        {
+          "id": "c4_ltPGkzKEn",
+          "name": "Dovbyk.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/dovbykpng.png"
+        },
+        {
+          "id": "swtiDNAg7v8M",
+          "name": "Ramos.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/ramospng.png"
+        },
+        {
+          "id": "W8pR3WlU0zyk",
+          "name": "John pache.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/johnPachepng.png"
+        },
+        {
+          "id": "ra6y0w_aAsLa",
+          "name": "Migueza.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/miguezapng.png"
+        },
+        {
+          "id": "Oj2tcvth3_2M",
+          "name": "Zahkaryan.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/zahkaryanpng.png"
+        },
+        {
+          "id": "gN4whtNnEj9Z",
+          "name": "Iker munofiz.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/ikerMunofizpng.png"
+        },
+        {
+          "id": "ZqcqtiDRzzTk",
+          "name": "Robert nav.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/robertNavpng.png"
+        },
+        {
+          "id": "lP5qbzf8iAC4",
+          "name": "Alcaraz.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/alcarazpng.png"
+        },
+        {
+          "id": "aZxG9uhjjVxS",
+          "name": "Rodrygo.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/rodrygopng.png"
+        },
+        {
+          "id": "0LdL5qoQnDYW",
+          "name": "Willian Jose.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/willianJosepng.png"
+        },
+        {
+          "id": "ySs8tQKhQ_I4",
+          "name": "Cros.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/croswebp.webp"
+        },
+        {
+          "id": "umPY_LUtCn8j",
+          "name": "Athletico madrid.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/athleticoMadridwebp.webp"
+        },
+        {
+          "id": "EMVEDyAhL2KJ",
+          "name": "Cimy Amela.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/cimyAmelawebp.webp"
+        },
+        {
+          "id": "HHkDVSfFJAet",
+          "name": "Rm team.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/rmTeamwebp.webp"
+        },
+        {
+          "id": "kmOUFoSzw7Oe",
+          "name": "Real-madrid.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/realMadridpng.png"
+        },
+        {
+          "id": "7RvFcx7GG-tt",
+          "name": "Cadiz.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/cadizpng.png"
+        },
+        {
+          "id": "hvrckpVcZZAV",
+          "name": "FcBarcelona.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/fcBarcelonapng.png"
+        },
+        {
+          "id": "BKXiKeZSTnBQ",
+          "name": "Osasuna.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/osasunapng.png"
+        },
+        {
+          "id": "woJ0kIobfgms",
+          "name": "Alaves.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/alavespng.png"
+        },
+        {
+          "id": "YtizPz7nQtnw",
+          "name": "free-circle-wavy-warning-3601587-3003157.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/freeCircleWavyWarning36015873003157Webp.webp"
+        },
+        {
+          "id": "xi1jHspUwqBX",
+          "name": "images.png 2",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/imagespng2.png"
+        },
+        {
+          "id": "1bMdERRaoHlO",
+          "name": "freesvgorg59596.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/freesvgorg59596Png.png"
+        },
+        {
+          "id": "CQ9-sDPob5k9",
+          "name": "warning-outline.svg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/warningOutlinesvg.svg"
+        },
+        {
+          "id": "8mIVRcD541z_",
+          "name": "1200px-Warning.svg.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/_1200PxWarningsvgpng.png"
+        },
+        {
+          "id": "3dvuj1dRfd8C",
+          "name": "images (1).png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/images1Png.png"
+        },
+        {
+          "id": "tMy6WadB-mZG",
+          "name": "hospital.svg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/hospitalsvg.svg"
+        },
+        {
+          "id": "56Xeotrp0yyG",
+          "name": "hospital (1)7777.svg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/hospital17777Svg.svg"
+        },
+        {
+          "id": "DBggUoKxKnkR",
+          "name": "cross_medical_circle-512.webp",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/crossMedicalCircle512Webp.webp"
+        },
+        {
+          "id": "LL4P0z_BPQmp",
+          "name": "2dcJ0Unw_400x400.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/_2DcJ0Unw400X400Png.png"
+        },
+        {
+          "id": "ZXQTHjP-eUpG",
+          "name": "vector-cancel-icon-png_302651.jpg",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/vectorCancelIconPng302651Jpg.jpg"
+        },
+        {
+          "id": "07t9gH_-iMAZ",
+          "name": "Xetafe.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/xetafepng.png"
+        },
+        {
+          "id": "245BZuJaEeYA",
+          "name": "free-red-hospital-clinic-icon-10725-thumb.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/freeRedHospitalClinicIcon10725Thumbpng.png"
+        },
+        {
+          "id": "EcqQKl_a0POM",
+          "name": "logo_sponsor_main_pink.png",
+          "filePath": "../public/plasmic/proliga_test_duplicat/images/logoSponsorMainPinkpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/proliga_test_duplicat/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "RrOPqhrNb6S4",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "W3LvuZhZtt_R",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
       "customFunctions": []
     }
   ],
@@ -1768,6 +2534,18 @@
         "name": "UnnamedGlobalGroupOfVariants",
         "projectId": "829HK5jNiwv3ZTz1XRkY4w",
         "contextFilePath": "plasmic/copy_of_proliga_test/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.tsx"
+      },
+      {
+        "id": "-wC0hluJbkYZ",
+        "name": "Screen",
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "contextFilePath": "plasmic/proliga_test_duplicat/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "C9aAUIaa_J4C",
+        "name": "UnnamedGlobalGroupOfVariants",
+        "projectId": "dVdfcSWLRf5sMsFR6YdMSg",
+        "contextFilePath": "plasmic/proliga_test_duplicat/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.tsx"
       }
     ]
   },

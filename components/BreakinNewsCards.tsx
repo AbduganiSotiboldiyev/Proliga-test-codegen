@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicBreakinNewsCards,
   DefaultBreakinNewsCardsProps
-} from "./plasmic/copy_of_proliga_test/PlasmicBreakinNewsCards";
+} from "./plasmic/proliga_test_duplicat/PlasmicBreakinNewsCards";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

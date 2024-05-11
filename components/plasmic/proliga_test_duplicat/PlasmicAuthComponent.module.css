@@ -1,0 +1,437 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: var(--token-1OJN40ewz1qc);
+  min-width: 0;
+  padding: 24px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.rootisSignUpFlow {
+  height: 710px;
+  margin-top: 6px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.h1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 20px;
+  color: var(--token-jgohepLVeKvh);
+  min-width: 0;
+}
+.freeBox__tgiuz {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 385px;
+  height: 52px;
+  max-width: 100%;
+  background: var(--token-FRFQxTf58EY2);
+  margin-top: calc(14px + 16px) !important;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.img__pp8Lm {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  flex-shrink: 0;
+}
+.img__pp8Lm > picture > img {
+  object-fit: cover;
+}
+.freeBox__wv0RW {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text__u3Aix {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 700;
+  color: var(--token-jgohepLVeKvh);
+  min-width: 0;
+  padding: 60px 14px 60px 25px;
+}
+.freeBox__zY8Ls {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 8px;
+}
+.freeBoxisSignUpFlow__zY8LSqkiwA {
+  display: none;
+}
+.freeBox__anMMg {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 385px;
+  height: 52px;
+  max-width: 100%;
+  background: var(--token-jgohepLVeKvh);
+  margin-top: calc(14px + 16px) !important;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.img___0JmcY {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  flex-shrink: 0;
+}
+.img___0JmcY > picture > img {
+  object-fit: cover;
+}
+.text___0TjMa {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 700;
+  color: var(--token-AiOQgeNUleUQ);
+  min-width: 0;
+  padding: 60px 14px 60px 25px;
+}
+.freeBox__sX7Mo {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 385px;
+  height: 52px;
+  max-width: 100%;
+  background: var(--token-jgohepLVeKvh);
+  margin-top: calc(14px + 16px) !important;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.img__svj81 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 50px;
+  flex-shrink: 0;
+  margin: 0px;
+}
+.img__svj81 > picture > img {
+  object-fit: cover;
+}
+.text__u5LAe {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-weight: 700;
+  color: var(--token-AiOQgeNUleUQ);
+  position: relative;
+  min-width: 0;
+  padding: 60px 14px 60px 10px;
+}
+.form:global(.__wab_instance) {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 450px;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  padding: 8px;
+}
+.formField__vrS6I:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  min-width: 0;
+}
+.input:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__qe5Gk:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  min-width: 0;
+}
+.input2:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__lkRqn:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  min-width: 0;
+}
+.input4:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__uzRmx:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  min-width: 0;
+  display: none;
+}
+.numberInput2:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField___9W33S:global(.__wab_instance) {
+  width: 100%;
+  margin-bottom: 24px;
+  min-width: 0;
+  display: none;
+}
+.input3:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+}
+.button__popL:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  width: 325px;
+}
+.text__r0AG {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.text__k39Vd {
+  position: relative;
+  width: 325px;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: var(--token-jgohepLVeKvh);
+  display: none;
+}
+.textisSignUpFlow__k39VdqkiwA {
+  display: block;
+}
+.freeBox__p5BM {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__rdYez {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 8px;
+}
+.text__o2BIh {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  color: var(--token-jgohepLVeKvh);
+  font-weight: 700;
+  padding-top: 12px;
+  min-width: 0;
+}
+.emailInput:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 325px;
+  margin-top: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+.svg__tmLhg {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__zlZjX {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.passwordInput:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 325px;
+  margin: 0px;
+}
+.svg__hAdY8 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__faVyx {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.text__lm8VR {
+  width: 325px;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: #7b7b8c;
+  margin-top: 0px;
+  position: relative;
+}
+.textisSignUpFlow__lm8VRqkiwA {
+  display: none;
+}
+.freeBox___34Jfi {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.radio:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  width: 325px;
+  align-self: center;
+  cursor: pointer;
+  color: #7b7b8c;
+  margin-bottom: 20px;
+}
+.radioisSignUpFlow:global(.__wab_instance) {
+  display: none;
+}
+.text___8ILc8 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: left;
+  position: relative;
+  min-width: 0;
+}
+.button__jkFpb:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 325px;
+}
+.svg__ur9Vt {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.text__yFh2 {
+  padding-top: 0px;
+  font-weight: 700;
+}
+.svg__sNgCh {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.freeBox__tne0Y {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 325px;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBoxisSignUpFlow__tne0YqkiwA {
+  width: 430px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 0px 0px 0px 80px;
+}
+.text__njRwc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #7b7b8c;
+  min-width: 0;
+}
+.textisSignUpFlow__njRwcqkiwA {
+  text-align: right;
+  margin: 0px;
+}
+.text___0Pyzg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: var(--token--ypw6enySR1T);
+  cursor: pointer;
+  min-width: 0;
+}
+.textisSignUpFlow___0PyzgqkiwA {
+  text-align: left;
+  cursor: pointer;
+}

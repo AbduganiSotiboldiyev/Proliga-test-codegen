@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   PlasmicSignInButtons,
   DefaultSignInButtonsProps
-} from "./plasmic/copy_of_proliga_test/PlasmicSignInButtons";
+} from "./plasmic/proliga_test_duplicat/PlasmicSignInButtons";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 
 // Your component props start with props for variants and slots you defined

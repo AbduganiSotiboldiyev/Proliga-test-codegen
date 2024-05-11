@@ -1,0 +1,64 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.freeBox___9W8De {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__aUyh {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  grid-auto-rows: 100px;
+  background: #11111f;
+  min-width: 0;
+  padding: 8px 8px 8px 40px;
+}
+.freeBox__sgRm0 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+}
+.freeBox__dgX7O {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.img {
+  position: absolute;
+  object-fit: fill;
+  max-width: 100%;
+  left: 0px;
+  top: 0px;
+}
+.img > picture > img {
+  object-fit: fill;
+}

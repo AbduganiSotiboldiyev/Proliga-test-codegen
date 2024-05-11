@@ -1,0 +1,130 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 903px;
+  height: 1034px;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("/plasmic/proliga_test_duplicat/images/soccerPlacejpg.jpg") top 50% left 50% / cover repeat;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.freeBox__qRyT {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.idealTeamMember__zorFi:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  height: 81px;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__fc6Bq {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+  margin: 50px;
+}
+.freeBox__fc6Bq > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.freeBox__fc6Bq > :global(.__wab_flex-container) > *,
+.freeBox__fc6Bq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__fc6Bq > :global(.__wab_flex-container) > picture > img,
+.freeBox__fc6Bq
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.idealTeamMember__w6SWd:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.idealTeamMember__nu4F:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.idealTeamMember__zuUhg:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.freeBox__nq8Y3 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 50px;
+  min-width: 0;
+  padding: 8px;
+}
+.idealTeamMember__nBaQs:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.idealTeamMember__xVtVb:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.idealTeamMember__jXSp9:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.idealTeamMember__v3Kdt:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.freeBox__ewmSu {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 50px;
+  min-width: 0;
+  padding: 8px;
+}
+.idealTeamMember__aIwgA:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.idealTeamMember___7D4Tz:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.idealTeamMember__re4Rv:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
